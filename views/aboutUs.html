@@ -1,0 +1,235 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" type="image/x-icon" href="../img/faviLogo.png" />
+
+    <!-- Animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- My Stylesheets -->
+    <link rel="stylesheet" href="../style/output.css" />
+    <link rel="stylesheet" href="../style/customStyle.css" />
+    <!-- Raleway [Google Font Link] -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet" />
+    <!-- Icons [Font Awesome Link] -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>The Shades of Trades</title>
+
+
+</head>
+
+<body class="bg-lightGray text-dark fontraleway">
+
+    <!-- NAVBAR -->
+    <nav id="navbar" class="w-full fixed p-5 flex justify-between text-lg sm:text-xl z-30">
+        <a href="../index.html" class="flex items-center gap-2">
+            <img src="../img/faviLogo.png" alt="Logo" class="w-8" />
+            <h1 class="font-bold md:text-2xl">The Shades of Trades</h1>
+        </a>
+        <i id="bars" class="hidden fas fa-bars text-xl mt-1 cursor-pointer"></i>
+        <div class="hidden md:block">
+            <div class="text-[18px] font-medium py-2 flex items-center gap-5 lg:gap-14">
+                <a href="./coursesPage.html" class="hover:underline underline-offset-4">
+                    Courses
+                </a>
+                <a href="./trading_journal.html" class="hover:underline underline-offset-4">
+                    Trading Journal
+                </a>
+                <a href="./blogPage.html" class="hover:underline underline-offset-4">
+                    Blog
+                </a>
+                <a href="./aboutUs.html" class="hover:underline underline-offset-4">
+                    About Us
+                </a>
+                <a id="contactUs" class="hover:underline underline-offset-4 cursor-pointer">
+                    Contact Us
+                </a>
+                <a href="./registration.html"
+                    class="inline-block bgrosy hover:bgcadet text-rosy tracking-widest transition-all px-4 py-2 border border-rosy rounded-lg hover:underline underline-offset-4 cursor-pointer">
+                    Enrol
+                </a>
+            </div>
+        </div>
+        <div id="barsDrop" class="hidden md:hidden bg-dark text-dark absolute top-[3.2rem] right-0 w-4/6 rounded-l-xl">
+            <ol class="text-lg my-6 font-bold text-center tracking-widest">
+                <a href="./coursesPage.html">
+                    <li class="py-3">Courses</li>
+                </a>
+                <a href="./trading_journal.html">
+                    <li class="py-3">Trading Journal</li>
+                </a>
+                <a href="./blogPage.html">
+                    <li class="py-3">Blog</li>
+                </a>
+                <a href="./aboutUs.html">
+                    <li class="py-3">About Us</li>
+                </a>
+                <a id="contactUs">
+                    <li class="py-3">Contact Us</li>
+                </a>
+                <a href="./registration.html" class="inline-block mt-4">
+                    <li
+                        class="text-rosy tracking-widest transition-all px-4 py-2 border border-rosy rounded-lg cursor-pointer">
+                        Enrol</li>
+                </a>
+            </ol>
+        </div>
+    </nav>
+
+    <!-- MAIN -->
+    <section class="mx-6 md:mx-auto py-16 md:py-36 text-textLight max-w-7xl md:flex gap-20">
+        <article class="md:w-3/6 my-12 py-12">
+            <img src="../img/svg/aboutUsRosy.svg" width="500" height="500" alt="" class="md:hidden rounded-xl shadowxl">
+            <img id="about_us_desktop" src="../img/svg/aboutUsRosy.svg" alt=""
+                class="hidden md:block mx-auto w-4/6 lg:w-full rounded-xl shadowxl">
+        </article>
+
+        <article class="md:w-3/6 my-12 md:my-auto space-y-6">
+            <h1 class="text-5xl lg:text-7xl text-dark font-bold">About Us</h1>
+            <p class="lg:text-lg">
+                The Shades of Trades is a name depicting the numerous technical and psychological glimpses of the
+                trading
+                process, a name that signifies trading as a concept, career, emotion, & trading as love & life. It’s is
+                a platform for every aspiring trader to get the appropriate education required to excel the stock
+                markets. It is a platform
+            </p>
+
+            <article class="text-textLight pt-12 text-center flex justify-evenly">
+                <div class="space-y-2 drop-shadow-lg">
+                    <figure class="">
+                        <!-- <img src="../img/apoorva_small.jpg" alt="" class="w-20 h-20 mx-auto object-cover rounded-full"> -->
+                        <div src="#" alt="" class="w-20 h-20 mx-auto object-cover rounded-full"></div>
+                        <figcaption class="text-dark font-bold text-lg pt-2">Sachin Kataria</figcaption>
+                    </figure>
+                    <hr id="divider" class="w-8 mx-auto">
+                    <span class="inline-block">Founder</span>
+                    <span>Trader</span>
+                    <br>
+                    <span>Mentor</span>
+                </div>
+                <!-- <div class="space-y-2 drop-shadow-lg">
+                    <figure class="">
+                        <div src="#" alt="" class="w-20 h-20 mx-auto object-cover rounded-full"></div>
+                        <figcaption class="text-dark font-bold text-lg pt-2">Aditya Sharma</figcaption>
+                    </figure>
+                    <hr id="divider" class="w-8 mx-auto">
+                    <span class="inline-block">Co Founder</span>
+                </div> -->
+            </article>
+        </article>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="footer" class="bg-dark h-full text-lavender px-4 pt-14">
+
+        <section class="md:flex justify-between">
+            <div class="text-light flex flex-col md:flex-row justify-center">
+                <div>
+                    <img src="../img/logo2rbg.png" alt="logo" class="w-4/6 md:w-3/6 mx-auto" />
+                    <p class="text-lg py-3 text-textLight text-center">
+                        Get a head start in your trading <br> career and learn a skill for a <br> lifetime with The
+                        Shades of Trades
+                    </p>
+                </div>
+            </div>
+
+            <div class="text-lg flex justify-evenly py-8 gap-32">
+                <aside class="">
+                    <h1 class="font-bold">Company</h1>
+                    <a href="./aboutUs.html" class="block text-textLight hover:text-cadet transition-all">
+                        About us
+                    </a>
+                    <a id="mentorBtn" href="../index.html"
+                        class="block text-textLight hover:text-cadet transition-all cursor-pointer">
+                        Mentor Info
+                    </a>
+                    <a href="./blogPage.html" class="block text-textLight hover:text-cadet transition-all">
+                        Blog
+                    </a>
+                </aside>
+
+                <aside class="">
+                    <h1 class="font-bold">Others</h1>
+                    <a href="./coursesPage.html" class="block text-textLight hover:text-cadet transition-all">
+                        Courses
+                    </a>
+                    <a id="testimonialBtn" href="../index.html"
+                        class="block text-textLight hover:text-cadet transition-all cursor-pointer">
+                        Testimonials
+                    </a>
+                    <a id="faqBtn" href="../index.html"
+                        class="block text-textLight hover:text-cadet transition-all cursor-pointer">
+                        FAQ
+                    </a>
+                </aside>
+            </div>
+
+            <div class="py-8 text-center">
+                <input type="text" placeholder=" I have a query..." value=" I have a query"
+                    class="inline-block py-3 lg:px-10 rounded-md border-none text-dark">
+                <a href="https://wa.me/+919812099390?text=I%20have%20a%20query" target="__blank" class="inline-block">
+                    <img src="../img/whatsapp.png" alt="whatsapp icon" class="inline-block w-16 rounded-full"></a>
+            </div>
+        </section>
+
+        <div class="pt-8 flex justify-center gap-6 text-2xl md:text-3xl text-textLight">
+            <a href="mailto:business@theshadesoftrades.co.in" target="__blank">
+                <i class="fa-solid fa-envelope hover:text-cadet transition"></i>
+            </a>
+            <a href="https://instagram.com/theshadesoftrades?igshid=YmMyMTA2M2Y=" target="__blank">
+                <i class="fab fa-instagram hover:text-cadet transition"></i>
+            </a>
+            <a href="https://twitter.com/shadesoftrades_?s=11&t=O0kyLZy7lU2W0E7qrlfl3Q" target="__blank">
+                <i class="fab fa-twitter hover:text-cadet transition"></i>
+            </a>
+            <a href="https://youtube.com/channel/UCwQV-CE3kWXa7EjmeCWjsDQ" target="__blank">
+                <i class="fab fa-youtube hover:text-cadet transition"></i>
+            </a>
+        </div>
+
+        <hr class="opacity-50 my-8 md:w-5/6 md:mx-auto" />
+
+        <div class="text-center tracking-widest flex flex-col md:flex-row justify-between gap-3 pb-8">
+            <p class="uppercase text-textLight text-[12px]">
+                <i class="fas fa-copyright"></i>
+                2022 the shades of trades
+            </p>
+            <p class="uppercase text-textLight text-[12px]">
+                Site by
+
+                <a href="https://www.linkedin.com/in/shaileshsiingh" target="__blank"
+                    class="text-rosy hover:text-cadet underline underline-offset-4">
+                    Shailesh Singh <i class="fa-solid fa-link"></i>
+                </a>
+            </p>
+        </div>
+    </footer>
+    <!-- SCRIPTS -->
+    <script>
+        const bars = document.querySelector('#bars');
+        const barsDrop = document.querySelector('#barsDrop');
+        const contactUs = document.querySelectorAll('#contactUs');
+
+        bars.addEventListener('click', () => barsDrop.classList.toggle('hidden'));
+
+        window.addEventListener('scroll', () => navbar.classList.toggle('navbar_scroll', window.scrollY > 10));
+
+        for (let el of contactUs) {
+            el.addEventListener('click', () => {
+                footer.scrollIntoView({ behavior: 'smooth' });
+            });
+        }
+    </script>
+</body>
+
+</html>

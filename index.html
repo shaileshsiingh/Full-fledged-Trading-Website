@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="title" content="The Shades of Trades" />
+  <meta name="description"
+    content="Get a head start in your trading career and learn a skill for a lifetime with the shades of trades." />
+  <meta name="keywords" content="trading, market, growth" />
+  <meta name="robots" content="index, follow" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="language" content="English" />
+  <meta name="revisit-after" content="1 days" />
+  <meta name="author" content="Apoorva Sharma" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://www.theshadesoftrades.co.in/" />
+  <meta property="og:title" content="The Shades of Trades" />
+  <meta property="og:description"
+    content="Get a head start in your trading career and learn a skill for a lifetime with the shades of trades." />
+  <meta property="og:image" content="https://www.theshadesoftrades.co.in/banner.png" />
+
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://www.theshadesoftrades.co.in/" />
+  <meta property="twitter:title" content="The Shades of Trades" />
+  <meta property="twitter:description"
+    content="Get a head start in your trading career and learn a skill for a lifetime with the shades of trades." />
+  <meta property="twitter:image" content="https://www.theshadesoftrades.co.in/banner.png" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="./img/faviLogo.png" />
+
+  <!-- Flowbite CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/flowbite@1.4.1/dist/flowbite.min.css" />
+
+  <!-- My Stylesheets -->
+  <link rel="stylesheet" href="./style/output.css" />
+  <link rel="stylesheet" href="./style/customStyle.css" />
+
+  <!-- Raleway [Google Font Link] -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <!-- Icons [Font Awesome Link] -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>The Shades of Trades</title>
+
+
+</head>
+
+<body class="bg-lightGray text-dark fontraleway">
+  <!-- NAVBAR -->
+  <nav id="navbar" class="w-full text-light fixed p-5 flex justify-between text-lg sm:text-xl z-40">
+    <a href="./index.html" class="flex items-center gap-2">
+      <img src="./img/faviLogo.png" alt="Logo" class="w-8" />
+      <h1 class="font-bold md:text-2xl">The Shades of Trades</h1>
+    </a>
+    <i id="bars" class="hidden fas fa-bars text-xl mt-1 cursor-pointer"></i>
+    <div class="hidden md:block">
+      <div class="text-[18px] font-medium py-2 flex items-center gap-5 lg:gap-14">
+        <a href="./views/coursesPage.html" class="hover:underline underline-offset-4">
+          Courses
+        </a>
+        <a href="./views/trading_journal.html" class="hover:underline underline-offset-4">
+          Trading Journal
+        </a>
+        <a href="./views/blogPage.html" class="hover:underline underline-offset-4">
+          Blog
+        </a>
+        <a href="./views/aboutUs.html" class="hover:underline underline-offset-4">
+          About Us
+        </a>
+        <a id="contactUs" class="hover:underline underline-offset-4 cursor-pointer">
+          Contact Us
+        </a>
+        <a href="./views/registration.html"
+          class="inline-block bgrosy hover:bgcadet text-rosy tracking-widest transition-all px-4 py-2 border border-rosy rounded-lg hover:underline underline-offset-4 cursor-pointer">
+          Enrol
+        </a>
+      </div>
+    </div>
+    <div id="barsDrop" class="hidden md:hidden bg-dark text-dark absolute top-[3.2rem] right-0 w-4/6 rounded-l-xl">
+      <ol class="text-lg my-6 font-bold text-center tracking-widest">
+        <a href="./views/coursesPage.html">
+          <li class="py-3">Courses</li>
+        </a>
+        <a href="./views/trading_journal.html">
+          <li class="py-3">Trading Journal</li>
+        </a>
+        <a href="./views/blogPage.html">
+          <li class="py-3">Blog</li>
+        </a>
+        <a href="./views/aboutUs.html">
+          <li class="py-3">About Us</li>
+        </a>
+        <a id="contactUs">
+          <li class="py-3">Contact Us</li>
+        </a>
+        <!-- <a href="./views/registration.html">
+          <li
+            class="py-3 inline-block bg-rosy hover:bg-cadet px-8 text-light tracking-widest rounded-md  transition-all">
+            Enrol</li>
+        </a> -->
+        <a href="./views/registration.html" class="inline-block mt-4">
+          <li class="text-rosy tracking-widest transition-all px-4 py-2 border border-rosy rounded-lg cursor-pointer">
+            Enrol</li>
+        </a>
+      </ol>
+    </div>
+  </nav>
+
+  <!-- NEW LANDING PAGE  -->
+  <section class="showcase">
+    <video id="video" src="./video/trading.mp4" muted loop playsinline autoplay poster="./img/landingPoster.png"
+      class="blur-sm">
+    </video>
+
+    <div class="overlay"></div>
+
+    <div class="text">
+      <h2 id="head">Build Your</h2>
+      <h3 id="head">Trading Career</h3>
+      <hr id="underline">
+      <p id="para">Get a head start in your trading career and learn a skill for a lifetime with <br> The Shades of
+        Trades
+      </p>
+      <a id="startedBtn">Get Started</a>
+    </div>
+  </section>
+
+  <!-- BLANK SPACE -->
+  <div class="h-screen"></div>
+
+  <!-- MENTOR INFORMATION -->
+  <section id="mentor_info"
+    class="my-24 md:my-36 p-10 h-full text-textLight grid gap-14 lg:grid-flow-col md:items-center md:justify-items-center">
+    <main class="sm:w-10/12 lg:w-9/12">
+      <img src="./img/logo2rbg.png" alt="logo" class="w-4/6 md:w-2/6" />
+      <h1 class="uppercase text-light text-6xl sm:text-7xl md:text-8xl text-left font-extrabold">
+        Sachin Kataria </h1>
+      <div class="py-4 text-sm">
+        <span class="uppercase px-2 font-bold">Founder</span>
+        <span class="uppercase px-2 font-bold">Trader</span>
+        <span class="uppercase px-2 font-bold">Mentor</span>
+      </div>
+      <p class="text-sm sm:text-lg font-medium md:pr-44">
+        Sachin Kataria, a full time Equity & Derivatives trader, has now been professionally trading for 3+ years and
+        has mentored over 100 people in the past 2 years. His idea behind commencing with The Shades of Trades, is for
+        everyone to have a mentor, someone who can guide them through their trading careers, who he himself lacked.
+      </p>
+    </main>
+    <img src="./img/sachin.jpg" alt="Image of a lady" class="rounded-lg shadow-xl object-contain sm:w-7/12 md:w-9/12" />
+  </section>
+
+  <!-- BRIDGING THE GAP -->
+  <section class="h-full bg-lavender px-6 py-56 md:px-10 lg:px-28 xl:px-56 bglight text-dark text-center">
+    <h1 class="text-3xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold px10">
+      Bridging the Gap Between <br> Ideation & Execution
+    </h1>
+    <p class="px8 py-10 text-sm md:text-lg font-medium text-textLight">
+      The Shades of Trades simplifies trading with intrinsic concepts of price action techniques and procedures. <br>
+      Learn
+      the best practices of equity and Futures & Options trading with a determined mentor by your side.
+    </p>
+  </section>
+
+  <!-- COURSES -->
+  <section id="courses-section" class="h-full pt-40 pb-64 bglight text-dark text-center">
+    <header class="my-10 md:my-20">
+      <h1 class="text-3xl sm:text-4xl md:text-6xl font-extrabold">Courses</h1>
+      <p class="text-sm md:text-lg lg:text-2xl font-bold p-2 text-textLight">
+        Master your passion, one course at a time.
+      </p>
+    </header>
+
+    <article
+      class="mx-6 md:text-lg grid gap-12 md:gap-8 md:justify-items-center md:grid-flow-col md:grid-cols-1 md:grid-rows-2 lg:grid-rows-2 xl:grid-rows-1 md:px-12">
+      <article class="md:col-span-1 lg:col-span-1 self-center rounded-xl shadow-xl hover:shadow-2xl transition-all">
+        <div
+          class="md:col-span-1 lg:col-span-1 group block self-start shrink-0 bg-gray-100 overflow-hidden rounded-t-xl">
+          <a href="./views/technical_analysis.html"><img src="./img/courses/analysis.jpg" alt="random"
+              class="rounded-t-xl inset-0 group-hover:scale-110 transition duration-200" /></a>
+        </div>
+
+        <div class="text-left py-12 px-6">
+          <a href="./views/technical_analysis.html">
+            <h1 class="pb-4 font-bold text-2xl hover:text-rosy">Learn Technical Analysis</h1>
+          </a>
+          <p class="pb-4 font-thin text-sm leading-relaxed text-textLight">
+            Learn advanced Price-Action Trading Strategies for both intra-day and swing traders.
+          </p>
+
+          <a href="./views/technical_analysis.html" class="text-rosy text-lg hover:underline">
+            Learn more &#8594;
+          </a>
+
+          <div class="block pt-4 text-xs space-y-4 md:space-y-0 md:space-x-4">
+            <button class="px-4 py-2 text-rosy cursor-auto"><i class="fa-solid fa-circle pr-2"></i> Beginner
+              Friendly</button>
+            <button class="px-4 py-2 text-cadet cursor-auto"><i class="fa-solid fa-circle pr-2"></i>
+              Reading Material</button>
+          </div>
+
+        </div>
+      </article>
+
+      <article class="md:col-span-1 lg:col-span-1 self-center rounded-xl shadow-xl hover:shadow-2xl transition-all">
+        <div
+          class="md:col-span-1 lg:col-span-1 group block self-start shrink-0 bg-gray-100 overflow-hidden rounded-t-xl">
+          <a href="./views/future_option_learning.html"><img src="./img/courses/future.jpg" alt="random"
+              class="rounded-t-xl inset-0 group-hover:scale-110 transition duration-200" /></a>
+        </div>
+
+        <div class="text-left py-9 px-6">
+          <a href="./views/future_option_learning.html">
+            <h1 class="pb-4 font-bold text-2xl hover:text-rosy">Learn Futures and Options Trading from Basic to Advanced
+            </h1>
+          </a>
+          <p class="pb-4 font-thin text-sm leading-relaxed text-textLight">
+            Learn to trade Nifty and Banknifty with advanced <br> futures and options trading strategies.
+          </p>
+
+          <a href="./views/future_option_learning.html" class="text-rosy text-lg hover:underline">
+            Learn more &#8594;
+          </a>
+
+          <div class="block pt-4 text-xs space-y-4 md:space-y-0 md:space-x-4">
+            <!-- <button class="px-4 py-2 text-rosy cursor-auto"><i
+                  class="fa-solid fa-circle pr-2"></i> Beginner
+                Friendly</button> -->
+            <button class="px-4 py-2 text-cadet cursor-auto"><i class="fa-solid fa-circle pr-2"></i>
+              Reading Material</button>
+          </div>
+        </div>
+      </article>
+
+      <article class="md:col-span-1 lg:col-span-1 self-center rounded-xl shadow-xl hover:shadow-2xl transition-all">
+        <div
+          class="md:col-span-1 lg:col-span-1 group block self-start shrink-0 bg-gray-100 overflow-hidden rounded-t-xl">
+          <a href="./views/comprehensive_learning.html"> <img src="./img/courses/learning.jpg" alt="random"
+              class="rounded-t-xl inset-0 group-hover:scale-110 transition duration-200" /></a>
+        </div>
+
+        <div class="text-left py-9 px-6">
+          <a href="./views/comprehensive_learning.html">
+            <h1 class="pb-4 font-bold text-2xl hover:text-rosy">Comprehensive Program</h1>
+          </a>
+          <p class="pb-4 font-thin text-sm leading-relaxed text-textLight">
+            Learn equity trading along with futures and options trading with the all-in-one comprehensive program
+            (Nifty & Banknifty trading strategies included)
+          </p>
+
+          <a href="./views/comprehensive_learning.html" class="text-rosy text-lg hover:underline">
+            Learn more &#8594;
+          </a>
+
+          <div class="block pt-4 text-xs space-y-4 md:space-y-0 md:space-x-4">
+            <button class="px-4 py-2 text-rosy cursor-auto"><i class="fa-solid fa-circle pr-2"></i> Beginner
+              Friendly</button>
+            <button class="px-4 py-2 text-cadet cursor-auto"><i class="fa-solid fa-circle pr-2"></i>
+              Reading Material</button>
+          </div>
+        </div>
+      </article>
+
+      <!-- <article class="md:col-span-1 lg:col-span-1 self-center rounded-xl shadow-xl hover:shadow-2xl transition-all">
+        <div
+          class="md:col-span-1 lg:col-span-1 group block self-start shrink-0 bg-gray-100 overflow-hidden rounded-t-xl">
+          <a href="./views/index_trading_masterclass.html"> <img src="./img/courses/index.jpg" alt="random"
+              class="rounded-t-xl inset-0 group-hover:scale-110 transition duration-200" /></a>
+        </div>
+
+        <div class="text-left py-12 px-6">
+          <a href="./views/index_trading_masterclass.html">
+            <h1 class="pb-4 font-bold text-2xl hover:text-rosy">Index Trading Masterclass</h1>
+          </a>
+          <p class="pb-4 font-thin text-sm leading-relaxed text-textLight">
+            This learning initiative focuses on advanced index analytics & trading strategies.
+          </p>
+
+          <a href="./views/index_trading_masterclass.html" class="text-rosy text-lg hover:underline">
+            Learn more &#8594;
+          </a>
+
+          <div class="block pt-4 text-xs space-y-4 md:space-y-0 md:space-x-4">
+            <button class="px-4 py-2 text-cadet cursor-auto"><i class="fa-solid fa-circle pr-2"></i>
+              Reading Material</button>
+          </div>
+        </div>
+      </article> -->
+
+    </article>
+  </section>
+
+  <!-- HOW EVERYTHING WORKS -->
+  <section class="bg-lavender py-40 h-full">
+    <section class="grid gap-12 md:grid-row-4 md:grid-flow-col md:justify-items-stretch">
+      <h1 class="relative md:text-right text-3xl md:text-5xl font-extrabold p-7 row-span-4">
+        How everything
+        <br class="hidden md:block" />
+        works.
+        <img src="./img/svg/pointsRosy.svg" alt="Women Selection Tabs" width="500" height="500"
+          class="lg:translate-x-36">
+      </h1>
+
+      <article class="text-left px-10 row-span-1 lg:pl-56">
+        <h2 class="text-2xl md:text-4xl font-extrabold">Enrol.</h2>
+        <p class="text-sm md:text-lg font-medium text-textLight py-3">
+          Enrol in any course of your preference by filling out the Form
+          <br>
+          Pay the
+          registration fee to book your slot.
+        </p>
+
+        <div class="pt-6 space-y-6 lg:space-y-0 lg:space-x-6">
+          <a href="./views/registration.html"
+            class="inline-block px-8 py-4 font-bold text-rosy border border-rosy tracking-widest rounded-lg hover:underline line underline-offset-4">Enrol</a>
+          <!-- 
+          <a href="#"
+            class="inline-block px-16 py-4 font-bold text-rosy border border-rosy tracking-widest rounded-lg hover:underline line underline-offset-4">Pay</a> -->
+        </div>
+      </article>
+
+      <article class="text-left px-10 row-span-1 lg:pl-56">
+        <h2 class="text-2xl md:text-4xl font-extrabold">Confirmation.</h2>
+        <p class="text-sm md:text-lg font-medium text-textLight py-3">
+          Share the payment screenshot via WhatsApp.
+          <br>
+          You’ll receive the payment confirmation within 2 hours.
+        </p>
+
+        <div class="">
+          <a href="https://wa.me/+919111114533" target="__blank"
+            class="inline-block px-10 py-4 font-bold text-rosy border border-rosy tracking-widest rounded-lg hover:underline line underline-offset-4">WhatsApp</a>
+        </div>
+      </article>
+
+      <article class="text-left px-10 row-span-1 lg:pl-56">
+        <h2 class="text-2xl md:text-4xl font-extrabold">Commencement.</h2>
+        <p class="text-sm md:text-lg font-medium text-textLight py-3">
+          You will be communicated all the necessary information via WhatsApp, <br> including the reading materials and
+          links
+          to the upcoming ZOOM sessions.
+        </p>
+      </article>
+
+      <article class="text-left px-10 row-span-1 lg:pl-56">
+        <h2 class="text-2xl md:text-4xl font-extrabold">Live Sessions.</h2>
+        <p class="text-sm md:text-lg font-medium text-textLight py-3">
+          All the sessions will be conducted Live via Zoom in both English and <br> Hindi Language.The duration of the
+          sessions will be around 100-120 minutes.
+        </p>
+      </article>
+    </section>
+  </section>
+
+  <!-- TESTIMONIALS-->
+  <section id="testimonial_mainSection" class="text-dark pt-40 pb-64">
+    <h1 class="text-center text-3xl md:text-7xl font-extrabold py-8 px-7">
+      What members are
+      <br />
+      saying
+    </h1>
+
+    <article id="default-carousel" class="relative dark" data-carousel="slide">
+
+      <div class="overflow-hidden max-w-screen-xl mx-auto relative h-[25rem] rounded-lg">
+
+        <!-- Start -->
+        <article
+          class="duration-800 ease-in-out absolute inset-0 transition-all transform translate-x-full z-10 flex bg-lightGray"
+          data-carousel-item="">
+
+          <div class="w-6/6 lg:w-1/3 lg:mb-0 mb-6 p-4 rounded-lg">
+            <div class="h-full text-center">
+              <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block"
+                src="./img/testimonial/vansh.jpeg" />
+              <p class="leading-relaxed">
+                Hello ma’am, I just wanted to reach out to you & thank you for everything that you taught me in your FNO
+                course, I’m an Option Trader and your guidance of especially the Trend Based Fibonacci Extension has
+                helped <a href="./views/testimonials.html" class="text-rosy hover:underline">Read more...</a>
+              </p>
+              <span class="inline-block h-1 w-10 rounded bg-dark mt-6 mb-4"></span>
+              <h2 class="text-textDark font-bold title-font tracking-wider text-sm">
+Name              </h2>
+              <p class="text-textLight">Delhi</p>
+            </div>
+          </div>
+
+          <div class="hidden md:block w-6/6 lg:w-1/3 lg:mb-0 mb-6 p-4 rounded-lg">
+            <div class="h-full text-center">
+              <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block"
+                src="./img/testimonial/vidush.jpeg" />
+              <p class="leading-relaxed">
+                It’s been 1 Year and 5 months since I’ve been trading regularly. They surely do say right that once you
+                become a trader, all your losses will be recovered in a month and January has been that month for me.
+                I’m finally in profit <a href="./views/testimonials.html" class="text-rosy hover:underline">Read
+                  more...</a>
+              </p>
+              <span class="inline-block h-1 w-10 rounded bg-dark mt-6 mb-4"></span>
+              <h2 class="text-textDark font-bold title-font tracking-wider text-sm">
+                Name
+              </h2>
+              <p class="text-textLight">Kurukshetra</p>
+            </div>
+          </div>
+
+          <div class="hidden md:block w-6/6 lg:w-1/3 lg:mb-0 mb-6 p-4 rounded-lg">
+            <div class="h-full text-center">
+              <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block"
+                src="./img/testimonial/varun.jpeg" />
+              <p class="leading-relaxed">
+                Hello,
+                I would like to thank Instagram so much for pulling up your reel to my account, so I could find the last
+                mentor I ever needed
+                to pave my steps into the market. Now, I take trades in an organized fashion and <a
+                  href="./views/testimonials.html" class="text-rosy hover:underline">Read more...</a>
+              </p>
+              <span class="inline-block h-1 w-10 rounded bg-dark mt-6 mb-4"></span>
+              <h2 class="text-textDark font-bold title-font tracking-wider text-sm">
+                Name
+              </h2>
+              <p class="text-textLight">Toronto</p>
+            </div>
+          </div>
+
+        </article>
+        <!-- End -->
+
+        <!-- Start -->
+        <article
+          class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-0 z-20 flex gap-4 bg-lightGray"
+          data-carousel-item="">
+
+          <div class="w-6/6 lg:w-1/3 lg:mb-0 mb-6 p-4 rounded-xl">
+            <div class="h-full text-center">
+              <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block"
+                src="./img/testimonial/rishi.jpeg" />
+              <p class="leading-relaxed">
+                Hi ,
+                The program was excellent and up to my expectations.
+                I had some vague knowledge about trading & price action but was not sure how to implement things.
+                After your program trading is so simplified
+                <a href="./views/testimonials.html" class="text-rosy hover:underline">Read more...</a>
+              </p>
+              <span class="inline-block h-1 w-10 rounded bg-dark mt-6 mb-4"></span>
+              <h2 class="text-textDark font-bold title-font tracking-wider text-sm">
+Name              </h2>
+              <p class="text-textLight">Bengaluru</p>
+            </div>
+          </div>
+
+          <div class="hidden md:block w-6/6 lg:w-1/3 lg:mb-0 mb-6 p-4 rounded-xl">
+            <div class="h-full text-center">
+              <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block"
+                src="./img/testimonial/ronak.jpeg" />
+              <p class="leading-relaxed">
+                I had never joined any online or offline program for Trading. This was my first and I was little afraid
+                of joining it but, I feel lucky, I joined your course because the way you taught us throughout the
+                session was more <a href="./views/testimonials.html" class="text-rosy hover:underline">Read
+                  more...</a>
+              </p>
+              <span class="inline-block h-1 w-10 rounded bg-dark mt-6 mb-4"></span>
+              <h2 class="text-textDark font-bold title-font tracking-wider text-sm">
+Name              </h2>
+              <p class="text-textLight">Pune</p>
+            </div>
+          </div>
+
+          <div class="hidden md:block w-6/6 lg:w-1/3 lg:mb-0 mb-6 p-4 rounded-xl">
+            <div class="h-full text-center">
+              <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block"
+                src="./img/testimonial/ashutosh.jpeg" />
+              <p class="leading-relaxed">
+                Your learning program was a very nice experience mam. Before Enroling in your course, I was studying
+                about F&O from YT but that was very confusing. The way u explained each and every thing right from the
+                basics to <a href="./views/testimonials.html" class="text-rosy hover:underline">Read
+                  more...</a>
+              </p>
+              <span class="inline-block h-1 w-10 rounded bg-dark mt-6 mb-4"></span>
+              <h2 class="text-textDark font-bold title-font tracking-wider text-sm">
+Name              </h2>
+              <p class="text-textLight">Gujarat</p>
+            </div>
+          </div>
+
+        </article>
+        <!-- End -->
+
+        <!-- Start -->
+        <article
+          class="duration-700 ease-in-out absolute inset-0 transition-all transform translate-x-full z-10 flex bg-lightGray"
+          data-carousel-item="">
+
+          <div class="w-6/6 lg:w-1/3 lg:mb-0 mb-6 p-4 rounded-lg">
+            <div class="h-full text-center">
+              <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block"
+                src="./img/testimonial/shreya.jpeg" />
+              <p class="leading-relaxed">
+                An unfiltered review for the program. For a beginner like me spotting patterns were still easy but I
+                always dreaded before picking any trades. Your setup helped me immensely to overcome my fears. Saves me
+                from fake <a href="./views/testimonials.html" class="text-rosy hover:underline">Read more...</a>
+              </p>
+              <span class="inline-block h-1 w-10 rounded bg-dark mt-6 mb-4"></span>
+              <h2 class="text-textDark font-bold title-font tracking-wider text-sm">
+                Name
+              </h2>
+              <p class="text-textLight">Siliguri
+              </p>
+            </div>
+          </div>
+
+          <div class="hidden md:block w-6/6 lg:w-1/3 lg:mb-0 mb-6 p-4 rounded-lg">
+            <div class="h-full text-center">
+              <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block"
+                src="./img/testimonial/chiyars.jpeg" />
+              <p class="leading-relaxed">
+                Although I am not a newbie in the stock market, I learned a lot in your basics to advanced program.
+                There was at least one day of gap between two sessions &I utilized that one day to backtest whatever you
+                have taught & <a href="./views/testimonials.html" class="text-rosy hover:underline">Read
+                  more...</a>
+              </p>
+              <span class="inline-block h-1 w-10 rounded bg-dark mt-6 mb-4"></span>
+              <h2 class="text-textDark font-bold title-font tracking-wider text-sm">
+Name              </h2>
+              <p class="text-textLight">Pune</p>
+            </div>
+          </div>
+
+          <div class="hidden md:block w-6/6 lg:w-1/3 lg:mb-0 mb-6 p-4 rounded-lg">
+            <div class="h-full text-center">
+              <img alt="testimonial" class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block"
+                src="./img/testimonial/shri.jpeg" />
+              <p class="leading-relaxed">
+                Hi Apoorva mam, I was the person who didn't know "T" of TRADING I started my trading journey with the so
+                called *Tippers* which was a huge mistake. Then I came across your reel onInstagram, followed u for a
+                while & decided to join your<a href="./views/testimonials.html" class="text-rosy hover:underline">Read
+                  more...</a>
+              </p>
+              <span class="inline-block h-1 w-10 rounded bg-dark mt-6 mb-4"></span>
+              <h2 class="text-textDark font-bold title-font tracking-wider text-sm">
+Name              </h2>
+              <p class="text-textLight">Haryana</p>
+            </div>
+          </div>
+
+        </article>
+        <!-- End -->
+
+      </div>
+
+      <button type="button"
+        class="flex absolute top-0 left-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+        data-carousel-prev="">
+        <span
+          class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor"
+            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"></path>
+          </svg>
+          <span class="hidden">Previous</span>
+        </span>
+      </button>
+      <button type="button"
+        class="flex absolute top-0 right-0 z-30 justify-center items-center px-4 h-full cursor-pointer group focus:outline-none"
+        data-carousel-next="">
+        <span
+          class="inline-flex justify-center items-center w-8 h-8 rounded-full sm:w-10 sm:h-10 bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+          <svg class="w-5 h-5 text-white sm:w-6 sm:h-6 dark:text-gray-800" fill="none" stroke="currentColor"
+            viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+          </svg>
+          <span class="hidden">Next</span>
+        </span>
+      </button>
+    </article>
+
+    <article class="text-center pt-12">
+      <a href="./views/testimonials.html"
+        class="inline-block px-8 py-4 font-bold text-rosy border border-rosy tracking-widest rounded-lg hover:underline line underline-offset-4">Read
+        More</a>
+    </article>
+  </section>
+
+  <!-- FAQ's -->
+  <section id="faq_section" class="bg-lavender py-40 px-6 flex flex-col justify-center">
+    <h1 class="text-center text-3xl md:text-7xl font-extrabold py-8 px-7">
+      Frequently asked questions
+    </h1>
+
+    <article class="text-center flex flex-col md:flex-row justify-center gap-6 md:gap-24">
+      <a id="btnOne" class="px-6 md:px-12 py-4 bg-lightGray rounded-xl cursor-pointer underline underline-offset-4">Live
+        Sessions
+        &#8594</a>
+      <a id="btnTwo" class="px-6 md:px-12 py-4 bg-lightGray rounded-xl cursor-pointer underline-offset-4">Program
+        Selection &#8594</a>
+      <a id="btnThree"
+        class="px-6 md:px-12 py-4 bg-lightGray rounded-xl cursor-pointer underline-offset-4">Post-Enrolment &#8594</a>
+    </article>
+
+    <div id="resOne" class="py-6 sm:py-8 lg:py-12">
+      <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
+        <div class="grid sm:grid-cols-2 gap-4 md:gap-8">
+          <!-- question - start -->
+          <div class="bg-lightGray rounded-lg p-5">
+            <div class="flex justify-between items-center border-b gap-4 pb-4 mb-4">
+              <h3 class="text-dark sm:text-lg md:text-xl font-semibold">
+                Are the sessions live or recorded?
+              </h3>
+
+              <span
+                class="w-8 h-8 inline-flex justify-center items-center shrink-0 bg-lavender text-textLight rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+            </div>
+
+            <p class="text-textLight">
+              All the sessions are conducted live via Zoom.
+            </p>
+          </div>
+          <!-- question - end -->
+
+          <!-- question - start -->
+          <div class="bg-lightGray rounded-lg p-5">
+            <div class="flex justify-between items-center border-b gap-4 pb-4 mb-4">
+              <h3 class="text-dark sm:text-lg md:text-xl font-semibold">
+                What is the language for the sessions?
+              </h3>
+
+              <span
+                class="w-8 h-8 inline-flex justify-center items-center shrink-0 bg-lavender text-textLight rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+            </div>
+
+            <p class="text-textLight">
+              The sessions are conducted in both- English and Hindi. Every concept is explained in both English and
+              Hindi Languages.
+            </p>
+          </div>
+          <!-- question - end -->
+
+          <!-- question - start -->
+          <div class="bg-lightGray rounded-lg p-5">
+            <div class="flex justify-between items-center border-b gap-4 pb-4 mb-4">
+              <h3 class="text-dark sm:text-lg md:text-xl font-semibold">
+                What if I miss a session?
+              </h3>
+
+              <span
+                class="w-8 h-8 inline-flex justify-center items-center shrink-0 bg-lavender text-textLight rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+            </div>
+
+            <p class="text-textLight">
+              A repeat recorded session is scheduled in case you end up missing any of the live ZOOM sessions. Try not
+              to skip any of the live sessions.
+            </p>
+          </div>
+          <!-- question - end -->
+
+          <!-- question - start -->
+          <div class="bg-lightGray rounded-lg p-5">
+            <div class="flex justify-between items-center border-b gap-4 pb-4 mb-4">
+              <h3 class="text-dark sm:text-lg md:text-xl font-semibold">
+                Can I ask doubts during the live sessions?
+              </h3>
+
+              <span
+                class="w-8 h-8 inline-flex justify-center items-center shrink-0 bg-lavender text-textLight rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+            </div>
+
+            <p class="text-textLight">
+              The sessions are completely interactive and you’ll be given ample amount of time to ask all of your
+              queries after every concept. Doubts can also be asked via WhatsApp after the sessions.
+            </p>
+          </div>
+          <!-- question - end -->
+        </div>
+      </div>
+    </div>
+
+    <div id="resTwo" class="hidden py-6 sm:py-8 lg:py-12">
+      <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
+        <div class="grid sm:grid-cols-2 gap-4 md:gap-8">
+          <!-- question - start -->
+          <div class="bg-lightGray rounded-lg p-5">
+            <div class="flex justify-between items-center border-b gap-4 pb-4 mb-4">
+              <h3 class="text-dark sm:text-lg md:text-xl font-semibold">
+                Which program is best for beginners?
+              </h3>
+
+              <span
+                class="w-8 h-8 inline-flex justify-center items-center shrink-0 bg-lavender text-textLight rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+            </div>
+
+            <p class="text-textLight">
+              Technical Analysis program and Comprehensive Learning Program are both suitable for beginners. You can go
+              with the Technical Analysis program if you wish to learn only equity and stock analysis. On the other
+              hand, if you wish to learn both - Equity Stock Analysis and F&O, go with the comprehensive program. It’s
+              an All-in-one program.
+            </p>
+          </div>
+          <!-- question - end -->
+
+          <!-- question - start -->
+          <div class="bg-lightGray rounded-lg p-5">
+            <div class="flex justify-between items-center border-b gap-4 pb-4 mb-4">
+              <h3 class="text-dark sm:text-lg md:text-xl font-semibold">
+                Are there any pre-requisites for the program?
+              </h3>
+
+              <span
+                class="w-8 h-8 inline-flex justify-center items-center shrink-0 bg-lavender text-textLight rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+            </div>
+
+            <p class="text-textLight">
+              There are no pre-requisites for the Technical Analysis and comprehensive program as they are both
+              beginners friendly. For future and Options learning program, basic knowledge of price action is expected
+              including support, resistance, trend-line and chart pattern.
+            </p>
+          </div>
+          <!-- question - end -->
+        </div>
+      </div>
+    </div>
+
+    <div id="resThree" class="hidden py-6 sm:py-8 lg:py-12">
+      <div class="max-w-screen-xl px-4 md:px-8 mx-auto">
+        <div class="grid sm:grid-cols-2 gap-4 md:gap-8">
+          <!-- question - start -->
+          <div class="bg-lightGray rounded-lg p-5">
+            <div class="flex justify-between items-center border-b gap-4 pb-4 mb-4">
+              <h3 class="text-dark sm:text-lg md:text-xl font-semibold">
+                How does WhatsApp assistance Work?
+              </h3>
+
+              <span
+                class="w-8 h-8 inline-flex justify-center items-center shrink-0 bg-lavender text-textLight rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+            </div>
+
+            <p class="text-textLight">
+              You’ll be in direct contact with the Mentor via WhatsApp communication for redressing all of your doubts
+              and queries.
+            </p>
+          </div>
+          <!-- question - end -->
+
+          <!-- question - start -->
+          <div class="bg-lightGray rounded-lg p-5">
+            <div class="flex justify-between items-center border-b gap-4 pb-4 mb-4">
+              <h3 class="text-dark sm:text-lg md:text-xl font-semibold">
+                Is any reading material provided with the programs?
+              </h3>
+
+              <span
+                class="w-8 h-8 inline-flex justify-center items-center shrink-0 bg-lavender text-textLight rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+            </div>
+
+            <p class="text-textLight">
+              Reading material is provided for all the necessary areas.
+            </p>
+          </div>
+          <!-- question - end -->
+
+          <!-- question - start -->
+          <div class="bg-lightGray rounded-lg p-5">
+            <div class="flex justify-between items-center border-b gap-4 pb-4 mb-4">
+              <h3 class="text-dark sm:text-lg md:text-xl font-semibold">
+                Will I get any assistance after the sessions are over?
+              </h3>
+
+              <span
+                class="w-8 h-8 inline-flex justify-center items-center shrink-0 bg-lavender text-textLight rounded-full">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6" viewBox="0 0 20 20" fill="currentColor">
+                  <path fill-rule="evenodd"
+                    d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-8-3a1 1 0 00-.867.5 1 1 0 11-1.731-1A3 3 0 0113 8a3.001 3.001 0 01-2 2.83V11a1 1 0 11-2 0v-1a1 1 0 011-1 1 1 0 100-2zm0 8a1 1 0 100-2 1 1 0 000 2z"
+                    clip-rule="evenodd" />
+                </svg>
+              </span>
+            </div>
+
+            <p class="text-textLight">
+              There is post-program assistance included in all the learning programs as mentioned in the curriculum. You
+              are free to contact the mentor after the aforesaid duration as well. Don’t worry! :)
+            </p>
+          </div>
+          <!-- question - end -->
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- SCROLL TO TOP -->
+  <section class="text-right bg-lavender">
+    <i id="backToTop"
+      class="fas fa-arrow-circle-up text-4xl m-12 cursor-pointer hover:-translate-y-1 transition-all"></i>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer" class="bg-dark h-full text-lavender px-4 pt-14">
+
+    <section class="md:flex justify-between">
+      <div class="text-light flex flex-col md:flex-row justify-center">
+        <div>
+          <img src="./img/logo2rbg.png" alt="logo" class="w-4/6 md:w-3/6 mx-auto" />
+          <p class="text-lg py-3 text-textLight text-center">
+            Get a head start in your trading <br> career and learn a skill for a <br> lifetime with The Shades of Trades
+          </p>
+        </div>
+      </div>
+
+      <div class="text-lg flex justify-evenly py-8 gap-32">
+        <aside class="">
+          <h1 class="font-bold">Company</h1>
+          <a href="./views/aboutUs.html" class="block text-textLight hover:text-cadet transition-all">
+            About us
+          </a>
+          <a id="mentorBtn" class="block text-textLight hover:text-cadet transition-all cursor-pointer">
+            Mentor Info
+          </a>
+          <a href="./views/blogPage.html" class="block text-textLight hover:text-cadet transition-all">
+            Blog
+          </a>
+        </aside>
+
+        <aside class="">
+          <h1 class="font-bold">Others</h1>
+          <a href="./views/coursesPage.html" class="block text-textLight hover:text-cadet transition-all">
+            Courses
+          </a>
+          <a id="testimonialBtn" class="block text-textLight hover:text-cadet transition-all cursor-pointer">
+            Testimonials
+          </a>
+          <a id="faqBtn" class="block text-textLight hover:text-cadet transition-all cursor-pointer">
+            FAQ
+          </a>
+        </aside>
+      </div>
+
+      <div class="py-8 text-center">
+        <input type="text" placeholder=" I have a query..." value=" I have a query"
+          class="inline-block py-3 lg:px-10 rounded-md border-none text-dark">
+        <a href="https://wa.me/+919111114533?text=I%20have%20a%20query" target="__blank" class="inline-block">
+          <img src="./img/whatsapp.png" alt="whatsapp icon" class="inline-block w-16 rounded-full"></a>
+      </div>
+    </section>
+
+    <div class="pt-8 flex justify-center gap-6 text-2xl md:text-3xl text-textLight">
+      <a href="mailto:business@theshadesoftrades.co.in" target="__blank">
+        <i class="fa-solid fa-envelope hover:text-cadet transition"></i>
+      </a>
+      <a href="https://instagram.com/theshadesoftrades?igshid=YmMyMTA2M2Y=" target="__blank">
+        <i class="fab fa-instagram hover:text-cadet transition"></i>
+      </a>
+      <a href="https://twitter.com/shadesoftrades_?s=11&t=O0kyLZy7lU2W0E7qrlfl3Q" target="__blank">
+        <i class="fab fa-twitter hover:text-cadet transition"></i>
+      </a>
+      <a href="https://youtube.com/channel/UCwQV-CE3kWXa7EjmeCWjsDQ" target="__blank">
+        <i class="fab fa-youtube hover:text-cadet transition"></i>
+      </a>
+    </div>
+
+    <hr class="opacity-50 my-8 md:w-5/6 md:mx-auto" />
+
+    <div class="text-center tracking-widest flex flex-col md:flex-row justify-between gap-3 pb-8">
+      <p class="uppercase text-textLight text-[12px]">
+        <i class="fas fa-copyright"></i>
+        2022 the shades of trades
+      </p>
+      <p class="uppercase text-textLight text-[12px]">
+        Site by
+
+        <a href="https://www.linkedin.com/in/shaileshsiingh" target="__blank"
+          class="text-rosy hover:text-cadet underline underline-offset-4">
+          Shailesh Singh <i class="fa-solid fa-link"></i>
+        </a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script src="./script/script.js"></script>
+  <script src="https://unpkg.com/flowbite@1.4.1/dist/flowbite.js"></script>
+</body>
+
+</html>
